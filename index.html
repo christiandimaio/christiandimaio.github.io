@@ -8,8 +8,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@material-ui/core@latest/umd/material-ui.development.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+
+    // Add horizontal_timeline.2.0.min.css 
+    <link rel="stylesheet" type="text/css" href="CSS/horizontal_timeline.2.0.min.css">
+
+    // OR add via jsdilvr CDN via the Github repo
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/ycodetech/horizontal-timeline-2.0@2/css/horizontal_timeline.2.0.min.css">
+
+    // Add jQuery 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+    // Add horizontal_timeline.2.0.min.js
+    <script src="JavaScript/horizontal_timeline.2.0.min.js"></script>
+
+    // OR add via jsdilvr CDN via the Github repo
+    <script src="https://cdn.jsdelivr.net/gh/ycodetech/horizontal-timeline-2.0@2/JavaScript/horizontal_timeline.2.0.min.js"></script>   
+
+    
 </head>
 <body>
     <div id="loading">
@@ -28,9 +46,16 @@
     <!-- <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
     <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a> -->
     <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
-        <h1>Christian Di Maio</h1>
-        <h3>Hey, nice to meet you <i class="far fa-smile-wink"></i></h3>
-        <h2>Student / Software Developer / Amateur Photographer / Human</h2>
+        
+        <h1>Welcome</h1>
+        <h3>root@myself:~$ Hey! I'm Christian Di Maio, nice to meet you <i class="far fa-smile-wink"></i></h3>
+        <br>
+        <div style="text-align:center">
+            <h3>Master Student : Artificial Intelligence and Automation Engineering @ University of Siena</h3>
+                <br>
+            <h3>Software Developer @ SistemiPOS Srl</h3>            
+        </div>
+        <h2>Amateur Photographer - Space Lover - Human</h2>
         <div id="menu">
             <a onclick="showabout()">about</a>
             <!-- <a onclick="showwork()">work</a> -->
@@ -64,7 +89,7 @@
     </div>
     <div id="about_container" class="container">
             <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
-            <h1>:~$ whoami </h1>
+            <h1>root@myself:~$ whoami </h1>
             <h2>Do you really wanna know me?</h2>
             <section>
                 <h3>Believe me, it's nothing interesting..but if you want..</h3>
@@ -113,5 +138,6 @@
     <script src="index.js" type="text/javascript"></script>
     <script src="particles.js"></script>
     <script src="app.js"></script>
+    
 </body>
 </html>
